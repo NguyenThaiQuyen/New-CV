@@ -1,0 +1,86 @@
+
+body {
+    font-size: 15px;
+    color: #263238;
+    font-family: Courier;
+}
+img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    padding: 20px 100px;
+    position: center;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    padding: auto;
+}
+
+#job-avatar{
+    margin: 0;
+    padding: 0 50px 30px 50px;
+    color: white;
+}
+li{
+    list-style-type: square;
+    padding: 0 10px;
+}
+h2{
+    color: deeppink;
+    padding : 0 5px;
+}
+p{
+    padding: 0 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* bar */
+.progress-bar{
+    height: 6px;
+    background:white;
+    border-radius: 6px;
+    display: block;
+}
+
+.progress-bar-keep{
+    height: 6px;
+    background: deeppink;
+    border-radius: 6px;
+    display: flex;
+}
+
+/* cover */
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin:20px auto;
+    border: double yellow;
+}
+
+.display{
+    display: flex;
+}
+
+
+/* div-module */
+.avtar{
+    background-color: deeppink;
+    text-align: center;
+    padding: auto 0;
+}
+
+/* module */
+.side-left{
+    width: 37%;
+    background: pink;
+}
+
+.side-right{
+    text-indent: 15px;
+    width: 65%;
+    background: rgba(226, 78, 162, 0.03);
+}
+
